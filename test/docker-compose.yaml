@@ -1,0 +1,8 @@
+services:
+  web:
+   image: nginx
+   ports:
+     - "86:80"
+   volumes:
+     - /D/Docker/test/:/usr/share/nginx/html
+         
